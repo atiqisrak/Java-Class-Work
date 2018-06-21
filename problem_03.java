@@ -7,14 +7,14 @@ public class Main {
         double i,sum = 0;
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Input 5 numbers: ");
+        System.out.println("Input numbers of 5 subjects: ");
 
         for(i=0;i<5;i++){
             sum += input.nextDouble();
         }
         System.out.printf("Sum of subjects: " + "%.2f" + "\n", sum);
 
-        System.out.println("Percentages of subbjects = " + (sum/5) + "%");
+        System.out.println("Percentages of subjects = " + (sum/5) + "%");
 
     }
 }
