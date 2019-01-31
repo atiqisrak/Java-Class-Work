@@ -1,0 +1,14 @@
+.number_buttons{
+    -fx-background-color: #328D66;
+    -fx-background-radius: 5px;
+    -fx-text-fill: white;
+}
+.number_buttons:hover{
+    -fx-background-color: #3C4043;
+}
+.board{
+    -fx-background-color: #3C4043;
+}
+.background{
+    -fx-background-color: darkgray;
+}
