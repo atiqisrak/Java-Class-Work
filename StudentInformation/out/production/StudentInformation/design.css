@@ -1,0 +1,12 @@
+.mainPage{
+    -fx-background-color: dimgrey;
+}
+.textField{
+    -fx-background-color: floralwhite;
+    -fx-background-radius: 20px;
+}
+.saveButton{
+    -fx-background-color: White;
+    -fx-text-fill: blue;
+    -fx-background-radius: 20px;
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="studentsidseperator.FXMLDocumentController">
+   <children>
+      <Text layoutX="21.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="StudentID" />
+      <Text layoutX="21.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Year" />
+      <Text layoutX="21.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Semester" />
+      <Text layoutX="21.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="School" />
+      <Text layoutX="300.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Department" />
+      <Text layoutX="300.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Program" />
+      <Text layoutX="300.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID" />
+      <TextField fx:id="student_id" layoutX="92.0" layoutY="18.0" prefHeight="25.0" prefWidth="492.0" />
+      <TextField fx:id="year" editable="false" layoutX="92.0" layoutY="52.0" prefHeight="25.0" prefWidth="177.0" />
+      <TextField fx:id="semester" editable="false" layoutX="92.0" layoutY="88.0" prefHeight="25.0" prefWidth="177.0" />
+      <TextField fx:id="school" editable="false" layoutX="92.0" layoutY="123.0" prefHeight="25.0" prefWidth="177.0" />
+      <TextField fx:id="department" editable="false" layoutX="380.0" layoutY="52.0" prefHeight="25.0" prefWidth="203.0" />
+      <TextField fx:id="program" editable="false" layoutX="380.0" layoutY="88.0" prefHeight="25.0" prefWidth="203.0" />
+      <TextField fx:id="id" editable="false" layoutX="380.0" layoutY="123.0" prefHeight="25.0" prefWidth="203.0" />
+      <Button fx:id="button_generate" layoutX="77.0" layoutY="161.0" mnemonicParsing="false" onAction="#onClickGenerate" prefHeight="25.0" prefWidth="492.0" text="Generate" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
